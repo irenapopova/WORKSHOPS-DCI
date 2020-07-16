@@ -13,7 +13,7 @@ Like many other languages, JavaScript involves programming objects, so we can sa
 Here is the JavaScript representation of a  pen 👇
 
 ```js
-var pen  🖊 = {
+let pen  🖊 = {
     type: "ballpoint",
     color: "blue",
     brand: "Bic"
@@ -186,7 +186,7 @@ let cake = {
 
     // Describe the cake
     describe: function () {
-        var description = "The " + this.occasion 
+        let description = "The " + this.occasion 
         + " cake has a " + this.flavor + " flavor, " 
         + this.levels + " layers, and costs " 
         + this.price + ".";
@@ -230,7 +230,7 @@ let muffin = {
 
     // Describe the pastry
     describe: function () {
-        var description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavor + " flavor, " + this.levels + " layers, and costs " + this.price + ".";
+        let description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavor + " flavor, " + this.levels + " layers, and costs " + this.price + ".";
         return description;
     }
 };
@@ -250,7 +250,7 @@ let anObject = {
 };
 
 // Create anotherObject using anObject as a prototype
-var anotherObject = Object.create(anObject);
+let anotherObject = Object.create(anObject);
 
 console.log(anotherObject.a); // will show 2
 
@@ -260,12 +260,12 @@ console.log(anotherObject.a); // will show 2
 
 If the prototype of an object does not have a desired property, then research continues in its own own prototype until we get to the end of prototype chain. If the property was found in objects, access returns the value undefined.
 ```js
-var anObject = {
+let anObject = {
     a: 2
 };
 
 // Create anotherObject using anObject as a prototype
-var anotherObject = Object.create(anObject);
+let anotherObject = Object.create(anObject);
 
 console.log(anotherObject.a); // will be 2
 console.log(anotherObject.b); // will be undefined
@@ -288,7 +288,7 @@ console.log(anotherObject.b); // will be undefined
 
     // Describe the pastry
     describe: function () {
-        var description = "The " + this.type 
+        let description = "The " + this.type 
         + " is a " 
         + this.occasion + " pastry, has a " 
         + this.flavor + " flavor, " 
@@ -395,7 +395,7 @@ The initialization of its properties, using the function `init() ` on the `Pastr
     },
     
     bake: function() {
-        var baked = "The " + this.flavor + this.type + " was placed in the oven. It's done!"
+        let baked = "The " + this.flavor + this.type + " was placed in the oven. It's done!"
     return baked
     }
 };
