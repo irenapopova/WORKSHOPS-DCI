@@ -1,6 +1,8 @@
 
+#### JavaScript Workshop  OOP - Part 2
 ![Alt Text](https://media.giphy.com/media/1C8bHHJturSx2/giphy.gif)
 
+👉 The core idea in object-oriented programming is to divide programs into smaller pieces and make each piece responsible for managing its own state.
 ### JavaScript Objects 
 Like many other languages, JavaScript involves programming objects, so we can say it's an object-oriented language. It provides a number of predefined objects while also letting you create your own.
 
@@ -137,6 +139,7 @@ The expected output:
 👉 <strong> JavaScript methods are actions that can be performed on objects. </strong>
 
 👉<strong>   A JavaScript method is a property containing a function definition. </strong>
+👉 So Methods are nothing more than properties that hold function values
 👉 In the above code, we had to write lengthy console.log statements each time to show the cake description. There's a cleaner way to accomplish this.
 
 
