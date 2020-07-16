@@ -140,14 +140,14 @@ The expected output:
 👉 In the above code, we had to write lengthy console.log statements each time to show the cake description. There's a cleaner way to accomplish this.
 
 
-| Property  |                           Value                           |
-| --------- | :-------------------------------------------------------: |
-| firstName |                           Anna                            |
-| lastName  |                            age                            |
-| age       |                            20                             |
-| eyeColor  |                           brown                           |
+| Property  | Value                                                     |
+| --------- | :-------------------------------------------------------- |
+| firstName | Anna                                                      |
+| lastName  | age                                                       |
+| age       | 20                                                        |
+| eyeColor  | brown                                                     |
 | fullName  | function() {return this.firstName + " " + this.lastName;} |
-
+| flavour   | vanilla                                                   |
 #### ❗️  Methods are functions stored as object properties.
 ### Adding a method to an Object 
 
@@ -416,7 +416,30 @@ console.log(cake.describe());
 
 #### Extra Reading 
 
-
-
+[More about OBJECTS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 
 ### Bonus 
+
+JS objects have the prototypical inheritance which is quite different from normal class-based inheritance. We will not explain inheritance as part of this workshop and will focus on some common methods which are available in JavaScript’s global Object constructor. Even though there are many other methods available in Object constructor, we will restrict our discussion to very frequently used ones.
+
+### Here is the list of topics we will discuss in this article :
+Shallow copy — Object.assign()
+
+Object.create()
+Object.entries()
+Object.keys()
+Object.values()
+Object.freeze()
+
+### a typical object initialization in JS
+
+```js
+let obj = {};
+obj.name = “car”;
+obj.year= 2018;
+obj.speak = function(){
+ return “My Name is “+this.name+” and this is year “+this.year;
+}
+
+```
+Here you can see the name, year and speak properties. In JS methods are also properties with type function.
