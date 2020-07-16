@@ -484,3 +484,4 @@ OUTPUT
 ```JS
 The barista position is hourly and is accepting applications.
 ```
+The `barista` object now has one property — position — but all the other properties and methods from job are available through the prototype. Object.create() is useful for keeping code DRY by minimizing duplication.
