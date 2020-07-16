@@ -150,7 +150,12 @@ Let's describe the cake object:
 
 // Describe a cake
 function describe(cake) {
-    let description = "The " + cake.occasion + " cake has a " + cake.flavor + " flavor, " + cake.levels + " layers, and costs " + cake.price + ".";
+    let description = "The " 
+    + cake.occasion
+     + " cake has a " 
+     + cake.flavor + " flavor, " 
+     + cake.levels + " layers, and costs " 
+     + cake.price + ".";
     return description;
 }
 
@@ -169,7 +174,10 @@ let cake = {
 
     // Describe the cake
     describe: function () {
-        var description = "The " + this.occasion + " cake has a " + this.flavor + " flavor, " + this.levels + " layers, and costs " + this.price + ".";
+        var description = "The " + this.occasion 
+        + " cake has a " + this.flavor + " flavor, " 
+        + this.levels + " layers, and costs " 
+        + this.price + ".";
         return description;
     }
 };
@@ -268,7 +276,10 @@ console.log(anotherObject.b); // will be undefined
 
     // Describe the pastry
     describe: function () {
-        var description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavor + " flavor, " + this.levels + " layer(s), and costs " + this.price + ".";
+        var description = "The " + this.type + " is a " 
+        + this.occasion + " pastry, has a " 
+        + this.flavor + " flavor, " + this.levels 
+        + " layer(s), and costs " + this.price + ".";
         return description;
     }
 };
