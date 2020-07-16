@@ -5,6 +5,9 @@
 👉 The core idea in object-oriented programming is to divide programs into smaller pieces and make each piece responsible for managing its own state.
 ### JavaScript Objects 
 Like many other languages, JavaScript involves programming objects, so we can say it's an object-oriented language. It provides a number of predefined objects while also letting you create your own.
+👉 Objects in JavaScript are collections of <strong> key/value pairs</strong>. The values can consist of properties and methods, and may contain all other JavaScript data types, such as strings, numbers, and Booleans.
+
+👉 All objects in JavaScript descend from the parent Object constructor. Object has many useful built-in methods we can use and access to make working with individual objects straightforward. Unlike Array prototype methods like ` sort() `and  `reverse()` that are used on the array instance, 🤔 Object methods are used directly on the <strong> Object constructor </strong>, and use <strong> the object instance as a parameter </strong>. This is known as a <strong> static method </strong>.
 
 ### Creating an object 🤔
 Here is the JavaScript representation of a  pen 👇
@@ -410,6 +413,7 @@ console.log(cake.describe());
 
 ```
 
+
 ### Homework
 
 👉 Write a method to eat the pastry using the same strategy. 
@@ -446,3 +450,37 @@ obj.speak = function(){
 
 ```
 Here you can see the name, year and speak properties. In JS methods are also properties with type function.
+
+### LEARN More MORE
+### built-in object methods
+
+### `Object.create()`
+The Object.create() method is used to create a new object and link it to the prototype of an existing object.
+
+We can create a job object instance, and extend it to a more specific object.
+
+```js
+
+// Initialize an object with properties and methods
+const job = {
+    position: 'cashier',
+    type: 'hourly',
+    isAvailable: true,
+    showDetails() {
+        const accepting = this.isAvailable ? 'is accepting applications' : "is not currently accepting applications";
+
+        console.log(`The ${this.position} position is ${this.type} and ${accepting}.`);
+    }
+};
+
+// Use Object.create to pass properties
+const barista = Object.create(job);
+
+barista.position = "barista";
+barista.showDetails();
+```
+
+OUTPUT
+```JS
+The barista position is hourly and is accepting applications.
+```
