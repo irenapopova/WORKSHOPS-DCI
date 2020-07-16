@@ -106,7 +106,10 @@ let cake  🍰 = {
     occasion: "birthday",
 };
 
-console.log("The " + cake.occasion + " cake has a " + cake.flavor + " flavor, " + cake.levels + " layers, and costs " + cake.price + ".");
+console.log("The " + cake.occasion 
++ " cake has a " + cake.flavor + " flavor, " 
++ cake.levels + " layers, and costs " 
++ cake.price + ".");
 
 // The cake is actually for a wedding!
 cake.occasion = "wedding";
@@ -115,7 +118,10 @@ cake.occasion = "wedding";
 cake.levels = cake.levels + 8;
 cake.price = "‎€60";
 
-console.log("The " + cake.occasion + " cake has a " + cake.flavor + " flavor, " + cake.levels + " layers, and costs " + cake.price + ".");
+console.log("The " + cake.occasion 
++ " cake has a " + cake.flavor 
++ " flavor, " + cake.levels 
++ " layers, and costs " + cake.price + ".");
 
 ```
 
@@ -276,10 +282,13 @@ console.log(anotherObject.b); // will be undefined
 
     // Describe the pastry
     describe: function () {
-        var description = "The " + this.type + " is a " 
+        var description = "The " + this.type 
+        + " is a " 
         + this.occasion + " pastry, has a " 
-        + this.flavor + " flavor, " + this.levels 
-        + " layer(s), and costs " + this.price + ".";
+        + this.flavor + " flavor, " 
+        + this.levels 
+        + " layer(s), and costs "
+         + this.price + ".";
         return description;
     }
 };
@@ -331,7 +340,12 @@ let Pastry = {
 
     // Describe the pastry
     describe: function () {
-        let description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavor + " flavor, " + this.levels + " layer(s), and costs " + this.price + ".";
+        let description = "The " + this.type 
+        + " is a " + this.occasion 
+        + " pastry, has a " + this.flavor 
+        + " flavor, " + this.levels 
+        + " layer(s), and costs " 
+        + this.price + ".";
         return description;
     }
 };
