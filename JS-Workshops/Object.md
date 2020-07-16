@@ -390,7 +390,7 @@ The initialization of its properties, using the function `init() ` on the `Pastr
 
     // Describe the pastry
     describe: function () {
-        var description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavor + " flavor, " + this.levels + " layer(s), and costs " + this.price + ".";
+        let description = "The " + this.type + " is a " + this.occasion + " pastry, has a " + this.flavor + " flavor, " + this.levels + " layer(s), and costs " + this.price + ".";
         return description;
     },
     
@@ -400,10 +400,10 @@ The initialization of its properties, using the function `init() ` on the `Pastr
     }
 };
 
-var muffin = Object.create(Pastry);
+let muffin = Object.create(Pastry);
 muffin.init("muffin", "blueberry", 1, "€1.50", "breakfast");
 
-var cake = Object.create(Pastry);
+let cake = Object.create(Pastry);
 cake.init("cake", "vanilla", 3, "€20", "birthday");
 
 console.log(muffin.bake());
@@ -424,6 +424,8 @@ console.log(cake.describe());
 #### Extra Reading 
 
 [More about OBJECTS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+
+[List of reserved ES6 keywords (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Reserved_keywords_as_of_ECMAScript_2015)
 
 ### Bonus 
 
