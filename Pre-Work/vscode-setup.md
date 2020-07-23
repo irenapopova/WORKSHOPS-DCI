@@ -37,7 +37,7 @@ If you press Cmd⌘+Shift+P or Ctrl+Shift+P while focused in an editor panel, th
 ### Default keyboard shortcuts
 All of the commands are in the Command Palette with the associated key binding (if it exists). If you forget a keyboard shortcut, use the Command Palette to help you out.
 
-![VS CODE](vscode4.jpg)
+![VS CODE](./images/vscode4.jpg)
 
 You can download the default keyboard shortcuts for your OS.
 
@@ -47,17 +47,17 @@ You can download the default keyboard shortcuts for your OS.
 👉 Change your theme
 You can change the theme by clicking on keyboard shortcut: ⌘K ⌘T or Ctrl+K Ctrl+T and choose the one you prefer.
 
-![VS CODE](vscode5.jpg)
+![VS CODE](./images/vscode5.jpg)
 
 👉Additionally, you can install and change your File Icon themes.
-![VS CODE](vscode6.jpg)
+![VS CODE](./images/vscode6.jpg)
 
 ### You can install more themes from the extension Marketplace.
 
 ### Tune your settings
 Open the user settings file setting.json (Keyboard Shortcut: ⌘, or Ctrl+,).
 
-![VS CODE](vscode7.jpg)
+![VS CODE](./images/vscode7.jpg)
 
 For changing any configuration, we should add it at the file on the right.
 
@@ -72,7 +72,7 @@ If you want to start coding  set your TabSize configuration to two spaces:
 
 👉 You can install and manage packages in the Settings view. There you will find your installed packages in the Packages tab.
 
-![VS CODE](vscode8.jpg)
+![VS CODE](./images/vscode8.jpg)
 
 ### VSCode Linters
 Let’s install some useful packages for practice.
@@ -88,8 +88,8 @@ Let’s install some useful packages for practice.
 👉 To install packages in VSCode, navigate to Extensions tab (Cmd⌘+Shift+X or Ctrl+Shift+X).
 
 👉Search for ESLint and HTMLHint packages and click on Install button.
-![VS CODE](vscode9.jpg)
-![VS CODE](vscode10.jpg)
+![VS CODE](./images/vscode9.jpg)
+![VS CODE](./images/vscode10.jpg)
 
 ### ⚠️ You should reload VSCode after installation
 
