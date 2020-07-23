@@ -1,7 +1,9 @@
 ### Basic Commands
 #### 👉 🛑 Git Config :
  **`git config -- global user.name NAME`** = set user name globally
+
 **`git config --global user.email EMAIL`** = set user email globally
+
 **`git config user.name || git config user.email `** = check saved info
 
 #### 👉 Creating repo
@@ -34,3 +36,10 @@ using git stash multiple times creates a list of stashes of all states with mult
 **`git stash drop ID `** = used to remove a stash saved
 **`git stash pop ID `**= applies the specific stash and removes it from history
 **`git stash clear `** = removes all the stash history
+
+### Gitignore
+a .gitignore file can be created , in which you can specify all the folders/files that should not be staged and commited
+For example : node_modules/ .css.map etc.
+It's Good to create a gitignore at the start of Project
+a good gitignore generator for reference :
+Gitignore.io
