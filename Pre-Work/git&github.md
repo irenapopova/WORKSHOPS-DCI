@@ -45,6 +45,7 @@ $ git --version
   $ git config --global user.name "John Doe";
 
   $ git config --global user.email johndoe@example.com
+
 ```
 
 
@@ -58,4 +59,10 @@ To learn more about setting up Git configurations, you can read the article Gett
 #### GitHub 🚀
 #### 👉 Create an Account
 First things first: if you haven’t done so already, go to Github and create an account
-![First-time Git setup](https://i.imgur.com/CKRLlJZ.png)
+![GitHub](https://i.imgur.com/CKRLlJZ.png)
+
+#### GitHub commands Links
+
+[Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+
+[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
