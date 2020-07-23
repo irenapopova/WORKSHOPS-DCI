@@ -97,6 +97,9 @@ Let’s install some useful packages for practice.
 #### 👉 Prettier:
 #### 👉 Auto rename tag
 #### 👉 Path intellisense
+#### Bracket pair colorizer
+Git lens
+Code Spell Checker
 
 ### Extra Resources
 [VSCode User Guide 🚀](https://code.visualstudio.com/docs/editor/codebasics)

@@ -1,11 +1,23 @@
 ### Terminal Setup
-### Learning Goals
-After this lesson, you will:
 
-Understand what a terminal emulator is and why it’s useful.
-For Mac Users: Have installed and configured iTerm2.
-For Linux Users: installed and configured Terminator.
-Be able to use basic terminal features, such as: New terminal, new tab, splitting panels.
-Understand what ZSH is and what advantages it gives you.
-Have installed and configured ZSH and Oh-My-Zsh.
-Have themed your terminal emulator.
+#### Introduction: Terminal emulators
+👉 Terminal emulators provide text-based access to the operating system (in contrast to the mostly graphical nature of the user experience of any Operating System, which is managed with your mouse/trackpad).
+
+
+---
+
+
+🔴IMPORTANT❗
+ **_NOTE:_**  ⚠️  A Warning  ⚠️
+ 
+👉 + Before continuing please note that you will see commands prefaced with $. For example:
+
+```bash
+$ cd some-folder
+```
+👉 The dollar sign denotes the command will be entered into the terminal. You do not need to type it.
+
+---
+
+
+
