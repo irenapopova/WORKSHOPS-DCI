@@ -54,3 +54,8 @@ $ git --version
 You should replace "John Doe" and the johndoe@example.com with your own info.
 
 To learn more about setting up Git configurations, you can read the article Getting Started - [First-time Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
+#### GitHub 🚀
+#### 👉 Create an Account
+First things first: if you haven’t done so already, go to Github and create an account
+![First-time Git setup](https://i.imgur.com/CKRLlJZ.png)
