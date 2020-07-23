@@ -6,7 +6,7 @@ VSCode is only for writing the code. You will write the code, save it to your fi
 ### Installation
 👉 VSCode’s site will detect our OS automatically. Visit https://code.visualstudio.com/ and download it by clicking on the button to download the application.
 
-![VS CODE](vscode.jpg)
+![VS CODE](./images/vscode.jpg)
 
 ### Installing VSCode on Mac
 👉 Download the application from https://code.visualstudio.com/.
@@ -27,7 +27,7 @@ Now that VSCode is installed on your system, let’s fire it up, configure it, a
 
 👉When you launch VSCode for the first time, you will see the Welcome Guide. You can also open the Welcome page to get started with the basics of VS Code. Help > Welcome
 
-![VS CODE](vscode2.jpg)
+![VS CODE](./images/vscode2.jpg)
 
 ### Command Palette
 If you press Cmd⌘+Shift+P or Ctrl+Shift+P while focused in an editor panel, the command palette will pop up.
