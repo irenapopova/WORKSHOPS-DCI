@@ -22,7 +22,7 @@ let pen  🖊 = {
 
 <strong> 👉 Create a new object in JavaScript by setting its properties within a pair of curly braces:  {...}; </strong>
 
-The above code defines a variable named pen whose value is an object: you can therefore say `pen` is an object. This object has<strong> three properties: type, color , and brand </strong>. Each property has a name and a value and is separated by a comma , (except the last one).
+The above code defines a variable named pen whose value is an object: you can therefore say `pen` is an object.  This object has<strong> three properties: type, color , and brand </strong>. Each property has a name and a value and is separated by a comma , (except the last one).
 
 ### Getting a value 🤔 
 👉 After creating the object, you can access the value of its properties using dot notation such as myObject.myProperty . 
@@ -90,7 +90,7 @@ layers (1, 2, 3...8?)
 
 ![Alt Text](https://media.giphy.com/media/9u8GF7MuhdvS8/giphy.gif)
 
-### How to create the cake? 🤔
+### How to create the cake? 🤔 🍰 
 
 ```js
 let cake = {
