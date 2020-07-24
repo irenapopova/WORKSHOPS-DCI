@@ -109,7 +109,7 @@ Let’s install some useful packages for practice.
 [VSCode User Guide 🚀](https://code.visualstudio.com/docs/editor/codebasics)
 
 
-[VSCode Getting Started 🚀](https://code.visualstudio.com/docs/?dv=win64user)
+
 
 
 
