@@ -6,7 +6,10 @@ VSCode is only for writing the code. You will write the code, save it to your fi
 ### Installation
 👉 VSCode’s site will detect our OS automatically. Visit https://code.visualstudio.com/ and download it by clicking on the button to download the application.
 
+
 ![VS CODE](./images/vscode.jpg)
+👉 ⚠️ Be sure to install Visual Studio Code - click on the link bellow : 
+[Installing VSCode](https://visualstudio.microsoft.com/de/)
 
 ### Installing VSCode on Mac
 👉 Download the application from https://code.visualstudio.com/.
@@ -32,7 +35,7 @@ Now that VSCode is installed on your system, let’s fire it up, configure it, a
 ### Command Palette
 If you press Cmd⌘+Shift+P or Ctrl+Shift+P while focused in an editor panel, the command palette will pop up.
 
-![Alt Text](https://user-images.githubusercontent.com/23629340/33935336-dec8c668-dffb-11e7-943e-63ed5e9c8e99.gif)
+![Command Palette](https://user-images.githubusercontent.com/23629340/33935336-dec8c668-dffb-11e7-943e-63ed5e9c8e99.gif)
 
 ### Default keyboard shortcuts
 All of the commands are in the Command Palette with the associated key binding (if it exists). If you forget a keyboard shortcut, use the Command Palette to help you out.
@@ -91,17 +94,22 @@ Let’s install some useful packages for practice.
 ![VS CODE](./images/vscode9.jpg)
 ![VS CODE](./images/vscode10.jpg)
 
-### ⚠️ You should reload VSCode after installation
+### 🛑 ⚠️  🤖 You should reload VSCode after installation ❗️
 
-### Extra Recommended packages
+### 🚀 Extra Recommended packages
 #### 👉 Prettier:
 #### 👉 Auto rename tag
 #### 👉 Path intellisense
-#### Bracket pair colorizer
-Git lens
-Code Spell Checker
+#### 👉 Bracket pair colorizer
+#### 👉 Git lens
+#### 👉 Code Spell Checker
+
 
 ### Extra Resources
 [VSCode User Guide 🚀](https://code.visualstudio.com/docs/editor/codebasics)
+
+
+[VSCode Getting Started 🚀](https://code.visualstudio.com/docs/?dv=win64user)
+
 
 
