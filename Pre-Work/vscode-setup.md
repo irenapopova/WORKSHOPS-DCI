@@ -8,10 +8,10 @@ VSCode is only for writing the code. You will write the code, save it to your fi
 
 
 ![VS CODE](./images/vscode.jpg)
-👉 ⚠️ Be sure to install Visual Studio Code - click on the link bellow : 
-[Installing VSCode](https://visualstudio.microsoft.com/de/)
+## 🛑 👉 ⚠️ Be sure to install Visual Studio Code - click on the link bellow  to compare, install the one in the middle: 
+### 🛑 [Installing VSCode](https://visualstudio.microsoft.com/de/)
 
-### Installing VSCode on Mac
+### 🚀 Installing VSCode on Mac
 👉 Download the application from https://code.visualstudio.com/.
 👉 Extract the zip file you just downloaded in your “Desktop” folder.
 👉 Drag the new Visual Studio Code application into your “Applications” folder.
@@ -24,7 +24,7 @@ Install Visual Studio Code’s dependencies if they are missing:
 ```js
 $ sudo apt-get -f install
 ```
-### VSCode Configuration
+### 🚀  VSCode Configuration
 ### Getting Started 🤔
 Now that VSCode is installed on your system, let’s fire it up, configure it, and get acquainted with the editor.
 
@@ -32,7 +32,7 @@ Now that VSCode is installed on your system, let’s fire it up, configure it, a
 
 ![VS CODE](./images/vscode2.jpg)
 
-### Command Palette
+### 🚀 Command Palette
 If you press Cmd⌘+Shift+P or Ctrl+Shift+P while focused in an editor panel, the command palette will pop up.
 
 ![Command Palette](https://user-images.githubusercontent.com/23629340/33935336-dec8c668-dffb-11e7-943e-63ed5e9c8e99.gif)
@@ -46,8 +46,8 @@ You can download the default keyboard shortcuts for your OS.
 
 [mac OS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
-### Customization
-👉 Change your theme
+### 🚀 🤔 Customization
+#### 👉 Change your theme
 You can change the theme by clicking on keyboard shortcut: ⌘K ⌘T or Ctrl+K Ctrl+T and choose the one you prefer.
 
 ![VS CODE](./images/vscode5.jpg)
@@ -68,7 +68,7 @@ For changing any configuration, we should add it at the file on the right.
 
 If you want to start coding  set your TabSize configuration to two spaces:
 
-### VSCode Packages
+### 🚀 VSCode Packages
 👉 This is one of the interesting things about VSCode. Many of its core features are actually just packages implemented the same way you would implement any other functionality.
 
 👉 Packages that are bundled with VSCode are referred to as Core packages. Ones that aren’t bundled with VSCode are referred to as Community packages. You can download and install packages to add functionalities to your text editor or even develop your own packages.
@@ -105,7 +105,7 @@ Let’s install some useful packages for practice.
 #### 👉 Code Spell Checker
 
 
-### Extra Resources
+###  🤖 🚀 Extra Resources
 [VSCode User Guide 🚀](https://code.visualstudio.com/docs/editor/codebasics)
 
 

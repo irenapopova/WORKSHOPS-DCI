@@ -7,16 +7,21 @@
 ---
 
 
-🔴IMPORTANT❗
- **_NOTE:_**  ⚠️  A Warning  ⚠️
+## 🔴IMPORTANT❗
+ ### **_NOTE:_**  ⚠️  A Warning  ⚠️
  
-👉 + Before continuing please note that you will see commands prefaced with $. For example:
+#### 👉 + Before continuing please note that you will see commands prefaced with ` $ ` . For example:
 
 ```bash
-$ cd some-folder
-```
-👉 The dollar sign denotes the command will be entered into the terminal. You do not need to type it.
 
+irene-terminal $ mkdir  js-workshop
+$ cd js-workshop
+$ code .
+
+```
+#### 🤔 👉 The dollar sign denotes the command will be entered into the terminal. You do not need to type it.
+
+### 
 ---
 
 
