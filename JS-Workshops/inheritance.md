@@ -30,3 +30,16 @@ let anAnimal = new Animal(); // Let's check an instance of Animal now
 anAnimal.eat(); // Alerts, no problem here
 anAnimal.fly(); // Error will occur, since only Birds have fly() in its prototype
 ```
+
+Its simple, the inheritance means: "objects/classes inherit from other objects/classes" through prototypes
+
+for example:
+```js
+function Person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+}
+Person.prototype.nationality = "English";
+```
