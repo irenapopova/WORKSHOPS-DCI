@@ -37,7 +37,7 @@ If you press Cmd⌘+Shift+P or Ctrl+Shift+P while focused in an editor panel, th
 
 ![Command Palette](https://user-images.githubusercontent.com/23629340/33935336-dec8c668-dffb-11e7-943e-63ed5e9c8e99.gif)
 
-### Default keyboard shortcuts
+###  🚀 Default keyboard shortcuts
 All of the commands are in the Command Palette with the associated key binding (if it exists). If you forget a keyboard shortcut, use the Command Palette to help you out.
 
 ![VS CODE](./images/vscode4.jpg)
@@ -57,7 +57,7 @@ You can change the theme by clicking on keyboard shortcut: ⌘K ⌘T or Ctrl+K C
 
 ### You can install more themes from the extension Marketplace.
 
-### Tune your settings
+###  🤖 Tune your settings
 Open the user settings file setting.json (Keyboard Shortcut: ⌘, or Ctrl+,).
 
 ![VS CODE](./images/vscode7.jpg)
@@ -108,6 +108,10 @@ Let’s install some useful packages for practice.
 ###  🤖 🚀 Extra Resources
 [VSCode User Guide 🚀](https://code.visualstudio.com/docs/editor/codebasics)
 
+
+### 🚀 Be patient and keep learning!
+
+#### 🤖 Happy Coding !
 
 
 
