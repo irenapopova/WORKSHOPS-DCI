@@ -35,6 +35,7 @@ Terminal is the terminal emulator included in the OS X operating system by Apple
 **iTerm2** is a a free replacement for the **OSX terminal** (the default terminal emulator in Apple’s Operating System).
 
 🤔 You may wonder why would we need iTerm2 if we already have a terminal installed.
+
 🛑 **iTerm2** offers us a **host** of extra features we can configure to give us a better experience.
 
 #### Some examples of cool features are:
@@ -90,10 +91,13 @@ $ sudo apt-get install terminator
 Be very careful here!
 
 ### To UNINSTALL Terminator
+
 ```js
 sudo apt remove terminator
 ```
+
 ##### Uninstall terminator and its dependencies (which are no longer needed):
+
 ```js
 sudo apt remove --auto-remove terminator
 ```
