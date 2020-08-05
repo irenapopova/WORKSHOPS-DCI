@@ -54,4 +54,46 @@ Terminal is the terminal emulator included in the OS X operating system by Apple
 
 ### Terminator (Linux Only!)
 
-![Command Palette](https://i.imgur.com/3cfDogH.png)
+![Command Palette](./images/terminator.png)
+
+Like in OS X, Terminal is the emulator included in most Linux operating systems. It is the **command-line interface** through which you can type in commands and carry out other text manipulation on Linux.
+The **terminal** is a very indispensable tool for system administration. And there are some times when you’d do most of your work on the command-line, like if you are a server admin or programmer.
+👉 Install the alternative one called **Terminator**.
+
+**Terminator** was originally created and developed by Chris Jones. Nowadays, it is one of the most popular **terminal emulators** in the **Ubuntu** community.
+
+👉 **Terminator** is a an alternative terminal for **Linux** that comes with a little additional features and functionality that you wont find in the default terminal application.
+
+👉 For instance in terminator you can split your terminal screen both horizontally and vertically as you wish.
+👉 The user can also have multiple terminals in one window and use custom key bindings to switch between them.
+
+👉 With terminator a power user can efficiently fill a large area of screen space with terminals.
+
+### Intallation
+
+To install terminator, run the following command:
+
+```js
+$ sudo apt-get update
+$ sudo apt-get install terminator
+```
+
+> :warning:🛑 **Remember, we don’t have to type the **`$`\*\*
+> So, for:
+>
+> ```js
+> $ sudo apt-get update
+> ```
+>
+> You only have to write **`sudo apt-get update`**.
+
+Be very careful here!
+
+### To UNINSTALL Terminator
+```js
+sudo apt remove terminator
+```
+##### Uninstall terminator and its dependencies (which are no longer needed):
+```js
+sudo apt remove --auto-remove terminator
+```
