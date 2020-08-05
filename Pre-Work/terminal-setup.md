@@ -41,16 +41,23 @@ Terminal is the terminal emulator included in the OS X operating system by Apple
 #### Some examples of cool features are:
 
 👉 Split panel view.
-👉Hotkey window for instant terminal anywhere.
+
+👉Hot-key window for instant terminal anywhere.
+
 👉 Mouseless copy.
+
 👉 Along with many more that we’ll learn about later on in this chapter.
 
 ### 🛑 Installation
 
 👉 Go to the [downloads](https://www.iterm2.com/downloads.html) page.
+
 👉 Download the Stable Release.
+
 👉 Decompress the zip file.
+
 👉 In Finder, drag-and-drop the iTerm2 Application file into the Applications folder.
+
 👉Launch iTerm2 by looking for it in the Spotlight Search or clicking on its icon in the App Launcher.
 
 ### Terminator (Linux Only!)
