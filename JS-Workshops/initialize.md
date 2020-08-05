@@ -2,8 +2,10 @@
 
 JavaScript has a number of predefined objects.
 
-- In addition, you can create your own objects. In JavaScript 1.2 and later, you can create an object using an object initializer.
-- Alternatively, you can first create a constructor function and then instantiate an object using that function and the new operator.
+- In addition, you can create your own objects. 
+- In JavaScript you can create an object using an **object initializer**.
+  
+- Alternatively, you can first create a **constructor function** and then **instantiate an object** using that **function** and the **new** operator.
 
 #### Using object initializers
 
@@ -18,7 +20,10 @@ Alternatively, you can create an object with these two steps:
 
 👉 Create an instance of the object with new.
 
-To define an object type, create a function for the object type that specifies its name, properties, and methods. For example, suppose you want to create an object type for cars. You want this type of object to be called car, and you want it to have properties for make, model, and year. To do this, you would write the following function:
+- To define an object type, create a function for the object type that specifies its name, properties, and methods.
+- For example, suppose you want to create an **object type** for **cars**.
+- You want this type of object to be called car, and you want it to have **properties** for `make`, `model`, and `year`.
+- So, this is possible, when you write the following function:
 
 ```js
 function Car(make, model, year) {
